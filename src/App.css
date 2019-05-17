@@ -6,12 +6,14 @@
   padding-top: 10px;
   position: fixed;
   border:2px dotted RED;
+  z-index: 10;
 }
 .div2{
   background-color: azure;
 }
 .div3{
   background-color: gray;
+  text-align: center;
 }
 .div4{
   background-color: azure;
