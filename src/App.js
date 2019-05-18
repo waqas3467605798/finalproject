@@ -6,7 +6,7 @@ import Links from './components/Link'
 import Ceo from './components/Ceo'
 import Introduction from './components/Introduction'
 import Product from './components/Products'
-import Contact from './components/Contact'
+import Career from './components/Career'
 
 
 class App extends Component {
@@ -18,7 +18,7 @@ class App extends Component {
   
     
      <div className='div1'> <h1 className='heading1'><i>XYZ Textile (Pvt) Ltd.</i></h1> <Links/></div>
-     <div> <Route exact path='/' component={Ceo} />  <Route path='/introduction' component={Introduction} />  <Route path='/product' component={Product} />  <Route path='/contact' component={Contact} /> </div>
+     <div> <Route exact path='/' component={Ceo} />  <Route path='/introduction' component={Introduction} />  <Route path='/product' component={Product} />  <Route path='/career' component={Career} /> </div>
     
     </div>
     

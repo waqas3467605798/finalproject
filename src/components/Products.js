@@ -10,12 +10,22 @@ import prod6 from '../images/prod6.jpeg'
 import prod7 from '../images/prod7.jpeg'
 import prod8 from '../images/prod8.jpeg'
 import prod9 from '../images/prod9.jpeg'
+import fab1 from '../images/fab1.jpg'
+import fab2 from '../images/fab2.jpeg'
+import fab3 from '../images/fab3.jpeg'
+import fab4 from '../images/fab4.jpeg'
+import fab5 from '../images/fab5.jpeg'
+import fab6 from '../images/fab6.jpeg'
+import fab7 from '../images/fab7.jpeg'
+import fab8 from '../images/fab8.jpeg'
+import fab9 from '../images/fab9.jpeg'
+
 
 
 class Product extends Component {
   render() {
     return (
-      <div>
+      <div className='div4'>
           <br/><br/><br/><br/><br/><br/>
         
         <h2 className='heading2'>Company Products</h2>
@@ -28,7 +38,17 @@ class Product extends Component {
         </div>
         </div>
 
+<br/>
+        <h2 className='heading2'>Fabrics</h2>
 
+        <div className='container'>
+        <div className='row'>
+       <div className='col-4'> <img src={fab1} alt='pic here' width='250px' height='180px'/>  <br/><br/>  <img src={fab2} alt='pic here' width='250px' height='180px'/>   <br/><br/>  <img src={fab3} alt='pic here' width='250px' height='180px'/>  </div>           <div className='col-4'> <img src={fab4} alt='pic here' width='250px' height='180px'/>  <br/><br/>  <img src={fab5} alt='pic here' width='250px' height='180px'/>   <br/><br/>  <img src={fab6} alt='pic here' width='250px' height='180px'/> </div>     <div className='col-4'> <img src={fab7} alt='pic here' width='250px' height='180px'/>  <br/><br/>  <img src={fab8} alt='pic here' width='250px' height='180px'/>   <br/><br/>  <img src={fab9} alt='pic here' width='250px' height='180px'/></div>
+        </div>
+        </div>
+
+      <br/><br/>
+        <div className='div3'> <br/> <b>Head Office:</b> <p>Kashmir Road, Faisalabad, Pakistan. </p> <b>Mills: </b> <p>3-Kilo meter, jhumra Road, khurrianwala, Faisalabad <br/> <b>Contact:</b> 92346xxxxxxxx <br/> <b>E-mail:</b> xxxyyz@xyz.com <br/> <br/></p> </div>
           </div>
     );
   }

@@ -13,7 +13,7 @@ class Links extends Component {
           <Link to='/' className='link'> About CEO </Link> 
           <Link to='/introduction' className='link'> Company Introduction</Link>
           <Link to='/product' className='link'>Our Products</Link>
-          <Link to='/contact' className='link'>Contact Us</Link>
+          <Link to='/career' className='link'>Careers</Link>
       </div>
     );
   }
