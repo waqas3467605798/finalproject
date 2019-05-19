@@ -42,3 +42,11 @@
 .p1{
   text-align: justify;
 }
+.btn1{
+  width:130px;
+  height:40px;
+  border-radius: 15px;
+  background-color:blue;
+  color:white;
+  font-size: 22px;
+}
