@@ -21,6 +21,11 @@
 .input1{
   border-radius: 15px;
 }
+.input2{
+  border-radius: 10px;
+  width:250px;
+  margin-bottom: 10px;
+}
 .link{
   margin-left: 20px;
   border:1px solid blue;

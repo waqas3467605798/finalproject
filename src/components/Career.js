@@ -13,7 +13,7 @@ class Career extends Component {
   render() {
     return (
       <div className='div4'>
-          <br/><br/><br/><br/><br/>
+          <br/><br/><br/><br/><br/><br/>
        
           <h2 className='heading2'>Why Choose Us</h2>
         <p className='p1'>We are equal opportunity providers, who always encourage the potential and dedicated candidates. We cares deeply to make the workplace more comfortable and pleasant for everyone.Providing platform and always encourage young candidates to work with new strategies and give them advises and opportunities to improve themselves.</p>
@@ -26,19 +26,19 @@ class Career extends Component {
       <div className='col-7'>
       <form>
          <table>
-          <tr>  <td>Your Name</td>  <td> <input type='text' placeholder='Name as per CNIC'/> </td>  </tr>
-          <tr>  <td>Father Name</td>  <td> <input type='text' placeholder='Father Name'/> </td>  </tr>
-          <tr>  <td>CNIC Number</td>  <td> <input type='text' placeholder='xxxxx-xxxxxxx-x'/> </td>  </tr>
-          <tr>  <td>Domicile</td>  <td> <input type='text' placeholder='Province/City'/> </td>  </tr>
-          <tr>  <td>Date of Birth</td>  <td> <input type='text' placeholder='dd/mm/yyyy'/> </td>  </tr>
-          <tr>  <td>Mobile Number</td>  <td> <input type='text' placeholder='923xxxxxxxxx'/> </td>  </tr>
-          <tr>  <td>Mailing Address</td>  <td> <input type='text' placeholder='Home Address'/> </td>  </tr>
+          <tr>  <td>Your Name</td>  <td> <input className='input2' type='text' placeholder=' Name as per CNIC'/> </td>  </tr>
+          <tr>  <td>Father Name</td>  <td> <input className='input2' type='text' placeholder=' Father Name'/> </td>  </tr>
+          <tr>  <td>CNIC Number</td>  <td> <input className='input2' type='text' placeholder=' xxxxx-xxxxxxx-x'/> </td>  </tr>
+          <tr>  <td>Domicile</td>  <td> <input className='input2' type='text' placeholder=' Province/City'/> </td>  </tr>
+          <tr>  <td>Date of Birth</td>  <td> <input className='input2' type='text' placeholder=' dd/mm/yyyy'/> </td>  </tr>
+          <tr>  <td>Mobile Number</td>  <td> <input className='input2' type='text' placeholder=' 923xxxxxxxxx'/> </td>  </tr>
+          <tr>  <td>Mailing Address</td>  <td> <input className='input2' type='text' placeholder=' Home Address'/> </td>  </tr>
           <tr>  <td>Gender</td>  <td> <input type='radio' name='gender' value='male'/>Male <input type='radio' name='gender' value='female'/>Female </td>  </tr>
-          <tr>  <td>Qualification</td>  <td> <input type='text' placeholder='Latest Degree Name'/> </td>  </tr>
-          <tr>  <td>Marks Obtained</td>  <td> <input type='text' placeholder='Marks Obtained'/> </td>  </tr>
-          <tr>  <td>Percentage/CGP</td>  <td> <input type='text' placeholder='%'/> </td>  </tr>
-          <tr>  <td>Post Applied For</td>  <td> <input type='text' placeholder='Department Name'/> </td>  </tr>
-          <tr>  <td>Experience</td>  <td> <input type='text' placeholder='Experience in Years'/> </td>  </tr> <br/>
+          <tr>  <td>Qualification</td>  <td> <input className='input2' type='text' placeholder=' Latest Degree Name'/> </td>  </tr>
+          <tr>  <td>Marks Obtained</td>  <td> <input className='input2' type='text' placeholder=' Marks Obtained'/> </td>  </tr>
+          <tr>  <td>Percentage/CGP</td>  <td> <input className='input2' type='text' placeholder=' %'/> </td>  </tr>
+          <tr>  <td>Post Applied For</td>  <td> <input className='input2' type='text' placeholder=' Department Name'/> </td>  </tr>
+          <tr>  <td>Experience</td>  <td> <input className='input2' type='text' placeholder=' Experience in Years'/> </td>  </tr> <br/>
           <tr>  <td></td>  <td>  <button onClick={this.formHandler} className='btn1'>Submit</button></td>  </tr>
          </table>
 
